@@ -401,7 +401,7 @@ document.addEventListener('keyup', function(e){
         animateDuck(document.getElementById('p4'), keyframes4,8000);
         animateDuck(document.getElementById('p5'), keyframes5,9000);
         animateDuck(document.getElementById('p6'), keyframes6,20000);
-        animateDuck(document.getElementById('p7'), keyframes7,7000);
+        animateDuck(document.getElementById('p7'), keyframes7,1000);
         animateDuck(document.getElementById('p8'), keyframes8,15000);
     });
 
