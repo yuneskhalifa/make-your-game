@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <title>DuckHunt</title>
+        <link rel="stylesheet" href = "style.css" >
+        <script src ="duck.js"></script>
+    
+    </head>
+    <body>
+        <!--this part of the code to initilise each duck with an id -->
+        <!-- start --------------------------------------------------------------->
+        <img id="p1"  src="images/duck5.gif">
+        <img id="p2"  src="images/duck6.gif">
+       <img id="p3"  src="images/duck2.gif">
+       <img id="p4"  src="images/duck3.gif">
+       <img id="p5"  src="images/duck44.gif">
+       <img id="p6"  src="images/duck3.gif">
+       <img id="p7"  src="images/duck2.gif">
+       <img id="p8"  src="images/duck4.gif">
+
+
+        <!--end------------------------------------------------------------------->
+        <!--this part of the code to initilise a div  the counter , number of bullets, fpscounter, crooshair, and timer-->
+        <!--start ----------------------------------------------------->
+        <div id="counter"> Score : <span id="currentScore">0</span> </div>
+        <div id="noBullets"> Bullets : <span id="currentBullets">8</span> </div>
+        <div id="fpsCounter">FPS: </div>
+        <div id="crosshair"></div>
+        <div id="timer">01:00</div>
+        <!--end ----------------------------------------------------------->
+        <!-- this part of the code for the pause menu-->
+         <!--start----------------------------------------->
+        <div id="pauseMenu">
+            <div id="ContinueButton"> Resume (Enter)</div>
+            <div id="RestartButton">Restart (shift)</div>
+        </div>
+
+        <div id="pauseMenu" style="display: none;">
+            <h1>Game Paused</h1>
+            <button id="continue">Continue</button>
+            <button id="restart">Restart</button>
+        </div>
+            <!--end----------------------------------------------------------------------->
+        
+<!-- this part of te code for the shoot sound-->
+ <!--start ----------------------------------------------->
+        <audio id="shoot">
+            <source src="sound/shoot12.wav" type="audio/wav">
+        </audio>
+      <!--end -------------------------------------------------------->
+    </body>
+
+
+</html>
