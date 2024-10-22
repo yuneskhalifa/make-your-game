@@ -5,30 +5,55 @@
         <meta name="viewport", content="width=device-width, initial-scale=1.0">
         <title>DuckHunt</title>
         <link rel="stylesheet" href = "style.css" >
-        <script src ="duck.js"></script>
+        <script src ="duck1.js"></script>
     
     </head>
     <body>
         <!--this part of the code to initilise each duck with an id -->
         <!-- start --------------------------------------------------------------->
-        <img id="p1"  src="images/duck5.gif">
-        <img id="p2"  src="images/duck6.gif">
-       <img id="p3"  src="images/duck2.gif">
-       <img id="p4"  src="images/duck3.gif">
-       <img id="p5"  src="images/duck44.gif">
-       <img id="p6"  src="images/duck3.gif">
-       <img id="p7"  src="images/duck2.gif">
-       <img id="p8"  src="images/duck4.gif">
+       <img id="p1" class="duck" src="images/duck5.gif">
+       <img id="p2" class="duck" src="images/duck6.gif">
+       <img id="p3" class="duck" src="images/duck2.gif">
+       <img id="p4" class="duck" src="images/duck3.gif">
+       <img id="p5" class="duck" src="images/duck44.gif">
+       <img id="p6" class="duck" src="images/duck5.gif">
+       <img id="p7" class="duck" src="images/duck6.gif">
+       <img id="p8"  class="duck" src="images/duck2.gif">
+
+      <img id="p9" class="duck" src="images/duck5.gif">
+      <img id="p10" class="duck" src="images/duck6.gif">
+      <img id="p11" class="duck" src="images/duck2.gif">
+      <img id="p12" class="duck" src="images/duck3.gif">
+      <img id="p13" class="duck" src="images/duck44.gif">
+      <img id="p14" class="duck" src="images/duck2.gif">
+      <img id="p15" class="duck" src="images/duck3.gif">
+      <img id="p16"  class="duck" src="images/duck44.gif">
+
+     <img id="p17" class="duck" src="images/duck5.gif">
+     <img id="p18" class="duck" src="images/duck6.gif">
+     <img id="p19" class="duck" src="images/duck2.gif">
+     <img id="p20" class="duck" src="images/duck3.gif">
+     <img id="p21" class="duck" src="images/duck44.gif">
+     <img id="p22" class="duck" src="images/duck5.gif">
+     <img id="p23" class="duck" src="images/duck6.gif">
+     <img id="p24"  class="duck" src="images/duck2.gif">
+       
+
 
 
         <!--end------------------------------------------------------------------->
         <!--this part of the code to initilise a div  the counter , number of bullets, fpscounter, crooshair, and timer-->
         <!--start ----------------------------------------------------->
-        <div id="counter"> Score : <span id="currentScore">0</span> </div>
-        <div id="noBullets"> Bullets : <span id="currentBullets">8</span> </div>
+        <div id="counter"> Current round Score : <span id="currentScore">0</span> </div>
+       <!--<div id="noBullets"> Bullets : <span id="currentBullets">3</span> </div>--> 
         <div id="fpsCounter">FPS: </div>
         <div id="crosshair"></div>
-        <div id="timer">00:30</div>
+        <div id="timer">05:00</div>
+
+        <div id="currentRound1"> Round:  <span id="currentRound">1</span> </div>
+
+        <div id="lives1">lives: <span id="lives">20</span>  </div>
+        <div id="totalScore1">toatal score: <span id="totalScore"></span>  </div>
         <!--end ----------------------------------------------------------->
         <!-- this part of the code for the pause menu-->
          <!--start----------------------------------------->
